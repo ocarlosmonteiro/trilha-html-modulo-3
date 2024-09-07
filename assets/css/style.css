@@ -22,22 +22,98 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
+header
+{
+    display: flex;
+
+}
+.logo
+{
+    width: 250px;
+}
+.input-search
+{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    margin-left: 20px;
+}
+.input-search input
+{
+    height: 30px;
+    width: 450px;
+    
+}
+.input-search button
+{
+    height: 30px;
+    margin-left: 0px;
+}
+.login
+{
+    margin-right: 35px;
+    display: flex;
+}
+.login a
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
+.footer p
+{
+    text-align: center;
+    font-size: small;
+}
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
 figure {
     text-align: center;
-    border: solid 1px;
 }
 #div-main
 {
     display: flex;
+}
+.box-image
+{    
+    border: solid 1px;
+    margin: 50px 0px 0px 50px;
+    height: 700px;
+}
+#title-box-image
+{
+    background-color: rgba(190, 144, 233, 0.637);
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+}
+#table-titulo
+{
+    text-align:center;
+    color: blue;
+    font-weight: bold;
+}
+table
+{
+    align-items: center;
+    border: solid 1px;
+}
+#td-coluna_1
+{
+    text-decoration: dotted;
+}
+#td-coluna_2
+{
+    margin-left: 20px;
+    te
 }
