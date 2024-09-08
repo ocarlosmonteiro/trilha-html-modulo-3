@@ -88,7 +88,7 @@ figure {
 {    
     border: solid 1px;
     margin: 50px 0px 0px 50px;
-    height: 700px;
+    height: 650px;
 }
 #title-box-image
 {
@@ -100,20 +100,34 @@ figure {
 #table-titulo
 {
     text-align:center;
+}
+th
+{
     color: blue;
-    font-weight: bold;
+    background-color: rgba(190, 144, 233, 0.637);
+    text-align: center;
 }
 table
 {
+    width: 100%;
     align-items: center;
-    border: solid 1px;
+    padding: 10px;
 }
 #td-coluna_1
 {
-    text-decoration: dotted;
+    font-weight: bolder;
+    font-size: medium;
 }
 #td-coluna_2
 {
     margin-left: 20px;
-    te
+}
+tr
+{
+    height: 25px;
+}
+a:hover
+{
+    color: rgba(48, 60, 230, 0.644);
+    text-decoration: underline;
 }
