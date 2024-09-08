@@ -134,3 +134,11 @@ a:visited
 {
     color: purple;
 }
+li
+{
+    margin: 5px 0px;
+}
+#sub-lista
+{
+    margin-left: 10px;
+}
